@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 'Material #76'
+  m_Shader: {fileID: 3, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ReflectionTexture
+      second:
+        m_Texture: {fileID: 8900000, guid: eedc9ccde1b3074488da0eec42208c10, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecularMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 38050a4ee2285634d91059eb2ea627e1, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Gloss
+      second: 0.08928572
+    - first:
+        name: _ReflectionIntensity
+      second: 0.42857143
+    - first:
+        name: _RimPower
+      second: 9.69
+    - first:
+        name: _Shininess
+      second: 0.45968467
+    - first:
+        name: _SpecularIntensity
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0, g: 0.021869045, b: 0.3019608, a: 1}
+    - first:
+        name: _DiffuseColor
+      second: {r: 0, g: 0.2647059, b: 0.2537525, a: 1}
+    - first:
+        name: _ReflectColor
+      second: {r: 0.5372549, g: 0.5372549, b: 0.5372549, a: 0.50980395}
+    - first:
+        name: _RimColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _SpecularColor
+      second: {r: 1, g: 1, b: 1, a: 1}
